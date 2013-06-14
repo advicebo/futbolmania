@@ -4,3 +4,5 @@
 	pass: advice1973
 
 2. ejecutar fiish.sql en phpmyadmin
+
+3 aca viene la modificacion de git
