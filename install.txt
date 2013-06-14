@@ -1,0 +1,6 @@
+1. crear un usuario mysql:
+
+	name: advice
+	pass: advice1973
+
+2. ejecutar fiish.sql en phpmyadmin
