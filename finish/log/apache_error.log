@@ -1,0 +1,1015 @@
+[Wed May 08 11:12:35 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2179): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Wed May 08 11:12:35 2013] [error] [client 127.0.0.1] Traceback (most recent call last):
+[Wed May 08 11:12:35 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 219, in __call__
+[Wed May 08 11:12:35 2013] [error] [client 127.0.0.1]     self.load_middleware()
+[Wed May 08 11:12:35 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 39, in load_middleware
+[Wed May 08 11:12:35 2013] [error] [client 127.0.0.1]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Wed May 08 11:12:35 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 184, in inner
+[Wed May 08 11:12:35 2013] [error] [client 127.0.0.1]     self._setup()
+[Wed May 08 11:12:35 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+[Wed May 08 11:12:35 2013] [error] [client 127.0.0.1]     self._wrapped = Settings(settings_module)
+[Wed May 08 11:12:35 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 95, in __init__
+[Wed May 08 11:12:35 2013] [error] [client 127.0.0.1]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Wed May 08 11:12:35 2013] [error] [client 127.0.0.1] ImportError: Could not import settings 'finish.settings' (Is it on sys.path?): No module named finish.settings
+[Wed May 08 11:12:39 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2179): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Wed May 08 11:12:39 2013] [error] [client 127.0.0.1] Traceback (most recent call last):
+[Wed May 08 11:12:39 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 219, in __call__
+[Wed May 08 11:12:39 2013] [error] [client 127.0.0.1]     self.load_middleware()
+[Wed May 08 11:12:39 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 39, in load_middleware
+[Wed May 08 11:12:39 2013] [error] [client 127.0.0.1]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Wed May 08 11:12:39 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 184, in inner
+[Wed May 08 11:12:39 2013] [error] [client 127.0.0.1]     self._setup()
+[Wed May 08 11:12:39 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+[Wed May 08 11:12:39 2013] [error] [client 127.0.0.1]     self._wrapped = Settings(settings_module)
+[Wed May 08 11:12:39 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 95, in __init__
+[Wed May 08 11:12:39 2013] [error] [client 127.0.0.1]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Wed May 08 11:12:39 2013] [error] [client 127.0.0.1] ImportError: Could not import settings 'finish.settings' (Is it on sys.path?): No module named finish.settings
+[Wed May 08 11:12:40 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2179): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Wed May 08 11:12:40 2013] [error] [client 127.0.0.1] Traceback (most recent call last):
+[Wed May 08 11:12:40 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 219, in __call__
+[Wed May 08 11:12:40 2013] [error] [client 127.0.0.1]     self.load_middleware()
+[Wed May 08 11:12:40 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 39, in load_middleware
+[Wed May 08 11:12:40 2013] [error] [client 127.0.0.1]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Wed May 08 11:12:40 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 184, in inner
+[Wed May 08 11:12:40 2013] [error] [client 127.0.0.1]     self._setup()
+[Wed May 08 11:12:40 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+[Wed May 08 11:12:40 2013] [error] [client 127.0.0.1]     self._wrapped = Settings(settings_module)
+[Wed May 08 11:12:40 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 95, in __init__
+[Wed May 08 11:12:40 2013] [error] [client 127.0.0.1]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Wed May 08 11:12:40 2013] [error] [client 127.0.0.1] ImportError: Could not import settings 'finish.settings' (Is it on sys.path?): No module named finish.settings
+[Wed May 08 10:14:29 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Wed May 08 10:14:29 2013] [error]   DeprecationWarning)
+[Wed May 08 10:14:29 2013] [error] 
+[Wed May 08 10:22:46 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Wed May 08 10:22:46 2013] [error]   DeprecationWarning)
+[Wed May 08 10:22:46 2013] [error] 
+[Wed May 08 10:25:46 2013] [error] [client 127.0.0.1] mod_wsgi (pid=11644): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Wed May 08 10:25:46 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Wed May 08 10:28:21 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Wed May 08 10:28:21 2013] [error]   DeprecationWarning)
+[Wed May 08 10:28:21 2013] [error] 
+[Wed May 08 10:32:52 2013] [error] Internal Server Error: /admin/main/post/add/
+[Wed May 08 10:32:52 2013] [error] Traceback (most recent call last):
+[Wed May 08 10:32:52 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
+[Wed May 08 10:32:52 2013] [error]     response = callback(request, *callback_args, **callback_kwargs)
+[Wed May 08 10:32:52 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py", line 372, in wrapper
+[Wed May 08 10:32:52 2013] [error]     return self.admin_site.admin_view(view)(*args, **kwargs)
+[Wed May 08 10:32:52 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 91, in _wrapped_view
+[Wed May 08 10:32:52 2013] [error]     response = view_func(request, *args, **kwargs)
+[Wed May 08 10:32:52 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/cache.py", line 89, in _wrapped_view_func
+[Wed May 08 10:32:52 2013] [error]     response = view_func(request, *args, **kwargs)
+[Wed May 08 10:32:52 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/sites.py", line 202, in inner
+[Wed May 08 10:32:52 2013] [error]     return view(request, *args, **kwargs)
+[Wed May 08 10:32:52 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 25, in _wrapper
+[Wed May 08 10:32:52 2013] [error]     return bound_func(*args, **kwargs)
+[Wed May 08 10:32:52 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 91, in _wrapped_view
+[Wed May 08 10:32:52 2013] [error]     response = view_func(request, *args, **kwargs)
+[Wed May 08 10:32:52 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 21, in bound_func
+[Wed May 08 10:32:52 2013] [error]     return func(self, *args2, **kwargs2)
+[Wed May 08 10:32:52 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/db/transaction.py", line 223, in inner
+[Wed May 08 10:32:52 2013] [error]     return func(*args, **kwargs)
+[Wed May 08 10:32:52 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py", line 1007, in add_view
+[Wed May 08 10:32:52 2013] [error]     self.save_model(request, new_object, form, False)
+[Wed May 08 10:32:52 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py", line 740, in save_model
+[Wed May 08 10:32:52 2013] [error]     obj.save()
+[Wed May 08 10:32:52 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 546, in save
+[Wed May 08 10:32:52 2013] [error]     force_update=force_update, update_fields=update_fields)
+[Wed May 08 10:32:52 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 650, in save_base
+[Wed May 08 10:32:52 2013] [error]     result = manager._insert([self], fields=fields, return_id=update_pk, using=using, raw=raw)
+[Wed May 08 10:32:52 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 215, in _insert
+[Wed May 08 10:32:52 2013] [error]     return insert_query(self.model, objs, fields, **kwargs)
+[Wed May 08 10:32:52 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1661, in insert_query
+[Wed May 08 10:32:52 2013] [error]     return query.get_compiler(using=using).execute_sql(return_id)
+[Wed May 08 10:32:52 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 936, in execute_sql
+[Wed May 08 10:32:52 2013] [error]     for sql, params in self.as_sql():
+[Wed May 08 10:32:52 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 894, in as_sql
+[Wed May 08 10:32:52 2013] [error]     for obj in self.query.objs
+[Wed May 08 10:32:52 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/files.py", line 250, in pre_save
+[Wed May 08 10:32:52 2013] [error]     file.save(file.name, file, save=False)
+[Wed May 08 10:32:52 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/db/models/fields/files.py", line 86, in save
+[Wed May 08 10:32:52 2013] [error]     self.name = self.storage.save(name, content)
+[Wed May 08 10:32:52 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/core/files/storage.py", line 48, in save
+[Wed May 08 10:32:52 2013] [error]     name = self._save(name, content)
+[Wed May 08 10:32:52 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/core/files/storage.py", line 198, in _save
+[Wed May 08 10:32:52 2013] [error]     fd = os.open(full_path, flags, 0o666)
+[Wed May 08 10:32:52 2013] [error] OSError: [Errno 13] Permission denied: '/opt/Proys/web/python/finish/finish/media/uploads/posts/images/band_1.jpg'
+[Wed May 08 10:49:42 2013] [error] Internal Server Error: /post/25/darken/
+[Wed May 08 10:49:42 2013] [error] Traceback (most recent call last):
+[Wed May 08 10:49:42 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
+[Wed May 08 10:49:42 2013] [error]     response = callback(request, *callback_args, **callback_kwargs)
+[Wed May 08 10:49:42 2013] [error]   File "/opt/Proys/web/python/finish/finish/apps/main/views.py", line 91, in post_view
+[Wed May 08 10:49:42 2013] [error]     return render_to_response('main/post.html',ctx,context_instance=RequestContext(request))
+[Wed May 08 10:49:42 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+[Wed May 08 10:49:42 2013] [error]     return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+[Wed May 08 10:49:42 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 170, in render_to_string
+[Wed May 08 10:49:42 2013] [error]     t = get_template(template_name)
+[Wed May 08 10:49:42 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 146, in get_template
+[Wed May 08 10:49:42 2013] [error]     template, origin = find_template(template_name)
+[Wed May 08 10:49:42 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 135, in find_template
+[Wed May 08 10:49:42 2013] [error]     source, display_name = loader(name, dirs)
+[Wed May 08 10:49:42 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 43, in __call__
+[Wed May 08 10:49:42 2013] [error]     return self.load_template(template_name, template_dirs)
+[Wed May 08 10:49:42 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 49, in load_template
+[Wed May 08 10:49:42 2013] [error]     template = get_template_from_string(source, origin, template_name)
+[Wed May 08 10:49:42 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 157, in get_template_from_string
+[Wed May 08 10:49:42 2013] [error]     return Template(source, origin, name)
+[Wed May 08 10:49:42 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 125, in __init__
+[Wed May 08 10:49:42 2013] [error]     self.nodelist = compile_string(template_string, origin)
+[Wed May 08 10:49:42 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 153, in compile_string
+[Wed May 08 10:49:42 2013] [error]     return parser.parse()
+[Wed May 08 10:49:42 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 274, in parse
+[Wed May 08 10:49:42 2013] [error]     compiled_result = compile_func(self, token)
+[Wed May 08 10:49:42 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader_tags.py", line 215, in do_extends
+[Wed May 08 10:49:42 2013] [error]     nodelist = parser.parse()
+[Wed May 08 10:49:42 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 274, in parse
+[Wed May 08 10:49:42 2013] [error]     compiled_result = compile_func(self, token)
+[Wed May 08 10:49:42 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader_tags.py", line 190, in do_block
+[Wed May 08 10:49:42 2013] [error]     nodelist = parser.parse(('endblock',))
+[Wed May 08 10:49:42 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 253, in parse
+[Wed May 08 10:49:42 2013] [error]     filter_expression = self.compile_filter(token.contents)
+[Wed May 08 10:49:42 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 353, in compile_filter
+[Wed May 08 10:49:42 2013] [error]     return FilterExpression(token, self)
+[Wed May 08 10:49:42 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 570, in __init__
+[Wed May 08 10:49:42 2013] [error]     "from '%s'" % (token[upto:], token))
+[Wed May 08 10:49:42 2013] [error] TemplateSyntaxError: Could not parse the remainder: ' as_html' from 'post.contenido as_html'
+[Wed May 08 10:49:53 2013] [error] Internal Server Error: /post/25/darken/
+[Wed May 08 10:49:53 2013] [error] Traceback (most recent call last):
+[Wed May 08 10:49:53 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
+[Wed May 08 10:49:53 2013] [error]     response = callback(request, *callback_args, **callback_kwargs)
+[Wed May 08 10:49:53 2013] [error]   File "/opt/Proys/web/python/finish/finish/apps/main/views.py", line 91, in post_view
+[Wed May 08 10:49:53 2013] [error]     return render_to_response('main/post.html',ctx,context_instance=RequestContext(request))
+[Wed May 08 10:49:53 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+[Wed May 08 10:49:53 2013] [error]     return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+[Wed May 08 10:49:53 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 170, in render_to_string
+[Wed May 08 10:49:53 2013] [error]     t = get_template(template_name)
+[Wed May 08 10:49:53 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 146, in get_template
+[Wed May 08 10:49:53 2013] [error]     template, origin = find_template(template_name)
+[Wed May 08 10:49:53 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 135, in find_template
+[Wed May 08 10:49:53 2013] [error]     source, display_name = loader(name, dirs)
+[Wed May 08 10:49:53 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 43, in __call__
+[Wed May 08 10:49:53 2013] [error]     return self.load_template(template_name, template_dirs)
+[Wed May 08 10:49:53 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 49, in load_template
+[Wed May 08 10:49:53 2013] [error]     template = get_template_from_string(source, origin, template_name)
+[Wed May 08 10:49:53 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 157, in get_template_from_string
+[Wed May 08 10:49:53 2013] [error]     return Template(source, origin, name)
+[Wed May 08 10:49:53 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 125, in __init__
+[Wed May 08 10:49:53 2013] [error]     self.nodelist = compile_string(template_string, origin)
+[Wed May 08 10:49:53 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 153, in compile_string
+[Wed May 08 10:49:53 2013] [error]     return parser.parse()
+[Wed May 08 10:49:53 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 274, in parse
+[Wed May 08 10:49:53 2013] [error]     compiled_result = compile_func(self, token)
+[Wed May 08 10:49:53 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader_tags.py", line 215, in do_extends
+[Wed May 08 10:49:53 2013] [error]     nodelist = parser.parse()
+[Wed May 08 10:49:53 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 274, in parse
+[Wed May 08 10:49:53 2013] [error]     compiled_result = compile_func(self, token)
+[Wed May 08 10:49:53 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader_tags.py", line 190, in do_block
+[Wed May 08 10:49:53 2013] [error]     nodelist = parser.parse(('endblock',))
+[Wed May 08 10:49:53 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 253, in parse
+[Wed May 08 10:49:53 2013] [error]     filter_expression = self.compile_filter(token.contents)
+[Wed May 08 10:49:53 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 353, in compile_filter
+[Wed May 08 10:49:53 2013] [error]     return FilterExpression(token, self)
+[Wed May 08 10:49:53 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 570, in __init__
+[Wed May 08 10:49:53 2013] [error]     "from '%s'" % (token[upto:], token))
+[Wed May 08 10:49:53 2013] [error] TemplateSyntaxError: Could not parse the remainder: ' as html' from 'post.contenido as html'
+[Wed May 08 11:10:14 2013] [error] Internal Server Error: /post/25/darken/
+[Wed May 08 11:10:14 2013] [error] Traceback (most recent call last):
+[Wed May 08 11:10:14 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
+[Wed May 08 11:10:14 2013] [error]     response = callback(request, *callback_args, **callback_kwargs)
+[Wed May 08 11:10:14 2013] [error]   File "/opt/Proys/web/python/finish/finish/apps/main/views.py", line 91, in post_view
+[Wed May 08 11:10:14 2013] [error]     return render_to_response('main/post.html',ctx,context_instance=RequestContext(request))
+[Wed May 08 11:10:14 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+[Wed May 08 11:10:14 2013] [error]     return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+[Wed May 08 11:10:14 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 170, in render_to_string
+[Wed May 08 11:10:14 2013] [error]     t = get_template(template_name)
+[Wed May 08 11:10:14 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 146, in get_template
+[Wed May 08 11:10:14 2013] [error]     template, origin = find_template(template_name)
+[Wed May 08 11:10:14 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 135, in find_template
+[Wed May 08 11:10:14 2013] [error]     source, display_name = loader(name, dirs)
+[Wed May 08 11:10:14 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 43, in __call__
+[Wed May 08 11:10:14 2013] [error]     return self.load_template(template_name, template_dirs)
+[Wed May 08 11:10:14 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 49, in load_template
+[Wed May 08 11:10:14 2013] [error]     template = get_template_from_string(source, origin, template_name)
+[Wed May 08 11:10:14 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 157, in get_template_from_string
+[Wed May 08 11:10:14 2013] [error]     return Template(source, origin, name)
+[Wed May 08 11:10:14 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 125, in __init__
+[Wed May 08 11:10:14 2013] [error]     self.nodelist = compile_string(template_string, origin)
+[Wed May 08 11:10:14 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 153, in compile_string
+[Wed May 08 11:10:14 2013] [error]     return parser.parse()
+[Wed May 08 11:10:14 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 274, in parse
+[Wed May 08 11:10:14 2013] [error]     compiled_result = compile_func(self, token)
+[Wed May 08 11:10:14 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader_tags.py", line 215, in do_extends
+[Wed May 08 11:10:14 2013] [error]     nodelist = parser.parse()
+[Wed May 08 11:10:14 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 274, in parse
+[Wed May 08 11:10:14 2013] [error]     compiled_result = compile_func(self, token)
+[Wed May 08 11:10:14 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader_tags.py", line 190, in do_block
+[Wed May 08 11:10:14 2013] [error]     nodelist = parser.parse(('endblock',))
+[Wed May 08 11:10:14 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 253, in parse
+[Wed May 08 11:10:14 2013] [error]     filter_expression = self.compile_filter(token.contents)
+[Wed May 08 11:10:14 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 353, in compile_filter
+[Wed May 08 11:10:14 2013] [error]     return FilterExpression(token, self)
+[Wed May 08 11:10:14 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 570, in __init__
+[Wed May 08 11:10:14 2013] [error]     "from '%s'" % (token[upto:], token))
+[Wed May 08 11:10:14 2013] [error] TemplateSyntaxError: Could not parse the remainder: '<post class="contenido"></post>' from '<post class="contenido"></post>'
+[Wed May 08 11:36:59 2013] [error] Internal Server Error: /post/25/darken/
+[Wed May 08 11:36:59 2013] [error] Traceback (most recent call last):
+[Wed May 08 11:36:59 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
+[Wed May 08 11:36:59 2013] [error]     response = callback(request, *callback_args, **callback_kwargs)
+[Wed May 08 11:36:59 2013] [error]   File "/opt/Proys/web/python/finish/finish/apps/main/views.py", line 91, in post_view
+[Wed May 08 11:36:59 2013] [error]     
+[Wed May 08 11:36:59 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+[Wed May 08 11:36:59 2013] [error]     return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+[Wed May 08 11:36:59 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 170, in render_to_string
+[Wed May 08 11:36:59 2013] [error]     t = get_template(template_name)
+[Wed May 08 11:36:59 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 146, in get_template
+[Wed May 08 11:36:59 2013] [error]     template, origin = find_template(template_name)
+[Wed May 08 11:36:59 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 135, in find_template
+[Wed May 08 11:36:59 2013] [error]     source, display_name = loader(name, dirs)
+[Wed May 08 11:36:59 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 43, in __call__
+[Wed May 08 11:36:59 2013] [error]     return self.load_template(template_name, template_dirs)
+[Wed May 08 11:36:59 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 49, in load_template
+[Wed May 08 11:36:59 2013] [error]     template = get_template_from_string(source, origin, template_name)
+[Wed May 08 11:36:59 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 157, in get_template_from_string
+[Wed May 08 11:36:59 2013] [error]     return Template(source, origin, name)
+[Wed May 08 11:36:59 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 125, in __init__
+[Wed May 08 11:36:59 2013] [error]     self.nodelist = compile_string(template_string, origin)
+[Wed May 08 11:36:59 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 153, in compile_string
+[Wed May 08 11:36:59 2013] [error]     return parser.parse()
+[Wed May 08 11:36:59 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 274, in parse
+[Wed May 08 11:36:59 2013] [error]     compiled_result = compile_func(self, token)
+[Wed May 08 11:36:59 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader_tags.py", line 215, in do_extends
+[Wed May 08 11:36:59 2013] [error]     nodelist = parser.parse()
+[Wed May 08 11:36:59 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 274, in parse
+[Wed May 08 11:36:59 2013] [error]     compiled_result = compile_func(self, token)
+[Wed May 08 11:36:59 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader_tags.py", line 190, in do_block
+[Wed May 08 11:36:59 2013] [error]     nodelist = parser.parse(('endblock',))
+[Wed May 08 11:36:59 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 253, in parse
+[Wed May 08 11:36:59 2013] [error]     filter_expression = self.compile_filter(token.contents)
+[Wed May 08 11:36:59 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 353, in compile_filter
+[Wed May 08 11:36:59 2013] [error]     return FilterExpression(token, self)
+[Wed May 08 11:36:59 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 564, in __init__
+[Wed May 08 11:36:59 2013] [error]     filter_func = parser.find_filter(filter_name)
+[Wed May 08 11:36:59 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 359, in find_filter
+[Wed May 08 11:36:59 2013] [error]     raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+[Wed May 08 11:36:59 2013] [error] TemplateSyntaxError: Invalid filter: 'uppercase'
+[Wed May 08 13:27:42 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Wed May 08 13:27:42 2013] [error]   DeprecationWarning)
+[Wed May 08 13:27:42 2013] [error] 
+[Wed May 08 13:27:45 2013] [error] [client 127.0.0.1] mod_wsgi (pid=1465): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Wed May 08 13:27:45 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Wed May 08 13:33:25 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Wed May 08 13:33:25 2013] [error]   DeprecationWarning)
+[Wed May 08 13:33:25 2013] [error] 
+[Wed May 08 20:30:19 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Wed May 08 20:30:19 2013] [error]   DeprecationWarning)
+[Wed May 08 20:30:19 2013] [error] 
+[Wed May 08 23:56:39 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Wed May 08 23:56:39 2013] [error]   DeprecationWarning)
+[Wed May 08 23:56:39 2013] [error] 
+[Thu May 09 11:46:04 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Thu May 09 11:46:04 2013] [error]   DeprecationWarning)
+[Thu May 09 11:46:04 2013] [error] 
+[Thu May 09 15:59:05 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Thu May 09 15:59:05 2013] [error]   DeprecationWarning)
+[Thu May 09 15:59:05 2013] [error] 
+[Thu May 09 16:02:40 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Thu May 09 16:02:40 2013] [error]   DeprecationWarning)
+[Thu May 09 16:02:40 2013] [error] 
+[Thu May 09 16:02:44 2013] [error] [client 127.0.0.1] mod_wsgi (pid=4826): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Thu May 09 16:02:44 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Fri May 10 14:37:17 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/redirect.php
+[Fri May 10 14:37:18 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be passed by reference in /usr/share/phppgadmin/redirect.php on line 14, referer: http://localhost/phppgadmin/redirect.php
+[Fri May 10 14:37:18 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/browser.php
+[Fri May 10 14:37:18 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/browser.php
+[Fri May 10 13:43:54 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Fri May 10 13:43:54 2013] [error]   DeprecationWarning)
+[Fri May 10 13:43:54 2013] [error] 
+[Fri May 10 13:54:20 2013] [error] Internal Server Error: /
+[Fri May 10 13:54:20 2013] [error] Traceback (most recent call last):
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
+[Fri May 10 13:54:20 2013] [error]     response = callback(request, *callback_args, **callback_kwargs)
+[Fri May 10 13:54:20 2013] [error]   File "/opt/Proys/web/python/finish/finish/apps/main/views.py", line 73, in main_view
+[Fri May 10 13:54:20 2013] [error]     return render_to_response('main/main.html', ctx, context_instance=RequestContext(request))
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+[Fri May 10 13:54:20 2013] [error]     return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 170, in render_to_string
+[Fri May 10 13:54:20 2013] [error]     t = get_template(template_name)
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 146, in get_template
+[Fri May 10 13:54:20 2013] [error]     template, origin = find_template(template_name)
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 135, in find_template
+[Fri May 10 13:54:20 2013] [error]     source, display_name = loader(name, dirs)
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 43, in __call__
+[Fri May 10 13:54:20 2013] [error]     return self.load_template(template_name, template_dirs)
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 49, in load_template
+[Fri May 10 13:54:20 2013] [error]     template = get_template_from_string(source, origin, template_name)
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 157, in get_template_from_string
+[Fri May 10 13:54:20 2013] [error]     return Template(source, origin, name)
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 125, in __init__
+[Fri May 10 13:54:20 2013] [error]     self.nodelist = compile_string(template_string, origin)
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 153, in compile_string
+[Fri May 10 13:54:20 2013] [error]     return parser.parse()
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 274, in parse
+[Fri May 10 13:54:20 2013] [error]     compiled_result = compile_func(self, token)
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader_tags.py", line 215, in do_extends
+[Fri May 10 13:54:20 2013] [error]     nodelist = parser.parse()
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 274, in parse
+[Fri May 10 13:54:20 2013] [error]     compiled_result = compile_func(self, token)
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader_tags.py", line 190, in do_block
+[Fri May 10 13:54:20 2013] [error]     nodelist = parser.parse(('endblock',))
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 274, in parse
+[Fri May 10 13:54:20 2013] [error]     compiled_result = compile_func(self, token)
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 903, in do_if
+[Fri May 10 13:54:20 2013] [error]     nodelist = parser.parse(('elif', 'else', 'endif'))
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 274, in parse
+[Fri May 10 13:54:20 2013] [error]     compiled_result = compile_func(self, token)
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 767, in do_for
+[Fri May 10 13:54:20 2013] [error]     nodelist_loop = parser.parse(('empty', 'endfor',))
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 274, in parse
+[Fri May 10 13:54:20 2013] [error]     compiled_result = compile_func(self, token)
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 809, in ifequal
+[Fri May 10 13:54:20 2013] [error]     return do_ifequal(parser, token, False)
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 781, in do_ifequal
+[Fri May 10 13:54:20 2013] [error]     nodelist_true = parser.parse(('else', end_tag))
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 253, in parse
+[Fri May 10 13:54:20 2013] [error]     filter_expression = self.compile_filter(token.contents)
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 353, in compile_filter
+[Fri May 10 13:54:20 2013] [error]     return FilterExpression(token, self)
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 564, in __init__
+[Fri May 10 13:54:20 2013] [error]     filter_func = parser.find_filter(filter_name)
+[Fri May 10 13:54:20 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 359, in find_filter
+[Fri May 10 13:54:20 2013] [error]     raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+[Fri May 10 13:54:20 2013] [error] TemplateSyntaxError: Invalid filter: 'truncate'
+[Sat May 11 14:07:45 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Sat May 11 14:07:45 2013] [error]   DeprecationWarning)
+[Sat May 11 14:07:45 2013] [error] 
+[Sat May 11 14:07:53 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2249): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Sat May 11 14:07:53 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Sat May 11 14:07:58 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2249): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Sat May 11 14:07:58 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Sat May 11 14:12:11 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2249): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Sat May 11 14:12:11 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Sat May 11 14:40:29 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Sat May 11 14:40:29 2013] [error]   DeprecationWarning)
+[Sat May 11 14:40:29 2013] [error] 
+[Sat May 11 14:40:36 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2115): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Sat May 11 14:40:36 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Sat May 11 14:43:39 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2115): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Sat May 11 14:43:39 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:40:44 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Tue May 14 08:40:44 2013] [error]   DeprecationWarning)
+[Tue May 14 08:40:44 2013] [error] 
+[Tue May 14 08:40:54 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:40:54 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:44:28 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:44:28 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:48:32 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:48:32 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:48:43 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:48:43 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:49:13 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:49:13 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:49:21 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:49:21 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:49:30 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:49:30 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:49:40 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:49:40 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:50:06 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:50:06 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:51:46 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:51:46 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:52:26 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:52:26 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:52:35 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:52:35 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:52:41 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:52:41 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:52:53 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:52:53 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:53:02 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:53:02 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:53:28 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:53:28 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:53:37 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:53:37 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:54:12 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:54:12 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:54:22 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:54:22 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:54:31 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:54:31 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:54:41 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:54:41 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:54:52 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:54:52 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:57:36 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:57:36 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:57:46 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:57:46 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:58:25 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:58:25 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:59:02 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:59:02 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:59:22 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:59:22 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 08:59:59 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 08:59:59 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:00:28 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:00:28 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:00:45 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:00:45 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:00:54 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:00:54 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:01:02 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:01:02 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:01:11 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:01:11 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:01:29 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:01:29 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:02:04 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:02:04 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:02:19 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:02:19 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:02:30 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:02:30 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:03:05 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:03:05 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:03:25 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:03:25 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:04:36 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:04:36 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:04:48 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:04:48 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:05:09 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:05:09 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:10:10 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:10:10 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:15:50 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:15:50 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:20:51 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:20:51 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:27:32 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:27:32 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:27:51 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:27:51 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:28:02 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:28:02 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:28:18 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:28:18 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:28:39 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:28:39 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:28:52 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:28:52 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:30:08 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:30:08 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:30:12 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:30:12 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:30:28 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:30:28 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:30:37 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:30:37 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:30:45 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:30:45 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:31:07 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:31:07 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:31:23 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:31:23 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:31:37 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:31:37 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:31:53 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:31:53 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:32:38 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:32:38 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:33:12 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:33:12 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:33:21 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:33:21 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:33:36 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:33:36 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:33:44 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:33:44 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:33:57 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:33:57 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:34:05 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:34:05 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:34:41 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:34:41 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:34:56 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:34:56 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:35:15 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:35:15 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:35:40 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:35:40 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:40:09 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:40:09 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:40:56 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:40:56 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 09:45:57 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 09:45:57 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 10:04:44 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 10:04:44 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 10:05:09 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 10:05:09 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 10:05:41 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 10:05:41 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 10:06:20 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 10:06:20 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 10:06:48 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 10:06:48 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 10:07:29 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 10:07:29 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 10:12:31 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 10:12:31 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 10:24:22 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 10:24:22 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 10:25:17 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 10:25:17 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 10:29:09 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 10:29:09 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 10:34:11 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 10:34:11 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:16:24 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:16:24 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:17:29 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:17:29 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:18:12 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:18:12 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:18:46 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:18:46 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:18:54 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:18:54 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:19:11 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:19:11 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:19:29 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:19:29 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:19:41 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:19:41 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:20:03 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:20:03 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:20:41 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:20:41 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:21:07 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:21:07 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:21:56 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:21:56 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:22:05 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:22:05 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:23:06 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:23:06 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:23:27 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:23:27 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:23:45 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:23:45 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:24:15 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:24:15 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:24:35 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:24:35 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:24:48 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:24:48 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:25:04 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:25:04 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:25:09 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:25:09 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:25:32 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:25:32 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:25:53 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:25:53 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:26:00 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:26:00 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:26:23 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:26:23 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:26:32 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:26:32 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:26:38 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:26:38 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:28:49 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:28:49 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:28:56 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:28:56 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:32:55 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:32:55 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:34:08 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:34:08 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:35:49 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:35:49 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:37:03 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:37:03 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:39:52 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:39:52 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:40:01 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:40:01 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:41:02 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:41:02 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:41:07 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:41:07 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:41:24 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:41:24 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:41:31 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:41:31 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:41:44 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:41:44 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:41:48 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:41:48 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:41:57 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:41:57 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:42:28 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:42:28 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:42:57 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:42:57 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:43:01 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:43:01 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:43:44 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:43:44 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:43:53 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:43:53 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:44:03 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:44:03 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:44:09 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:44:09 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:44:15 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:44:15 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:44:23 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:44:23 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:44:28 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:44:28 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:44:33 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:44:33 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:45:15 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:45:15 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:46:05 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:46:05 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:46:22 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:46:22 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:46:46 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:46:46 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:47:15 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:47:15 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:47:48 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:47:48 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:48:06 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:48:06 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:49:52 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:49:52 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:50:23 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:50:23 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:50:29 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:50:29 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:50:57 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:50:57 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:51:47 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:51:47 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:52:03 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:52:03 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:52:33 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:52:33 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:53:17 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:53:17 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:53:51 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:53:51 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:54:27 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:54:27 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:54:32 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:54:32 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:55:06 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:55:06 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:55:22 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:55:22 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:55:50 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:55:50 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 13:56:03 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 13:56:03 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:01:47 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:01:47 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:03:38 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:03:38 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:04:57 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:04:57 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:05:25 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:05:25 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:05:56 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:05:56 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:06:21 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:06:21 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:06:45 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:06:45 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:10:13 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:10:13 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:10:23 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:10:23 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:10:57 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:10:57 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:11:08 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:11:08 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:11:48 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:11:48 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:12:12 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:12:12 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:12:24 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:12:24 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:12:43 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:12:43 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:13:10 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:13:10 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:13:14 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:13:14 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:13:19 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:13:19 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:13:27 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:13:27 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:14:20 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:14:20 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:14:36 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:14:36 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:14:47 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:14:47 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:15:19 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:15:19 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:15:30 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:15:30 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:18:38 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:18:38 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:18:47 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:18:47 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:19:12 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:19:12 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:24:05 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:24:05 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:25:10 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:25:10 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:26:17 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:26:17 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:26:28 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:26:28 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:27:04 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:27:04 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:27:22 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:27:22 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:27:44 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:27:44 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:27:58 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:27:58 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:28:04 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:28:04 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:28:09 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:28:09 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:28:24 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:28:24 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:28:30 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:28:30 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:28:41 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:28:41 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:28:52 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:28:52 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:33:53 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:33:53 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:35:03 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:35:03 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:35:11 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:35:11 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:35:31 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:35:31 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:35:43 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:35:43 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:35:50 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:35:50 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:37:04 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:37:04 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:37:18 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:37:18 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:39:54 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:39:54 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:40:04 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:40:04 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:40:53 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:40:53 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:41:54 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:41:54 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:42:18 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:42:18 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:42:29 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:42:29 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:42:46 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:42:46 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:42:52 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:42:52 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:42:58 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:42:58 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:43:08 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:43:08 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:43:23 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:43:23 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:43:30 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:43:30 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:43:38 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:43:38 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:44:07 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:44:07 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:44:25 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:44:25 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:44:47 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:44:47 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:45:00 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:45:00 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:45:11 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:45:11 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:45:27 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:45:27 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:45:58 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:45:58 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:46:08 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:46:08 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:47:41 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:47:41 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:48:36 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:48:36 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:48:47 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:48:47 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:48:54 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:48:54 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:49:06 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:49:06 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:49:25 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:49:25 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:50:05 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:50:05 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:50:24 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:50:24 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:50:30 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:50:30 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:51:23 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:51:23 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 14:56:24 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 14:56:24 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 15:24:35 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 15:24:35 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 15:29:36 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 15:29:36 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 15:39:30 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 15:39:30 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 15:41:41 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 15:41:41 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 15:46:43 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 15:46:43 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 15:54:47 2013] [error] Internal Server Error: /
+[Tue May 14 15:54:47 2013] [error] Traceback (most recent call last):
+[Tue May 14 15:54:47 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
+[Tue May 14 15:54:47 2013] [error]     response = callback(request, *callback_args, **callback_kwargs)
+[Tue May 14 15:54:47 2013] [error]   File "/opt/Proys/web/python/finish/finish/apps/main/views.py", line 73, in main_view
+[Tue May 14 15:54:47 2013] [error]     return render_to_response('main/main.html', ctx, context_instance=RequestContext(request))
+[Tue May 14 15:54:47 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+[Tue May 14 15:54:47 2013] [error]     return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+[Tue May 14 15:54:47 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 177, in render_to_string
+[Tue May 14 15:54:47 2013] [error]     return t.render(context_instance)
+[Tue May 14 15:54:47 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 140, in render
+[Tue May 14 15:54:47 2013] [error]     return self._render(context)
+[Tue May 14 15:54:47 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
+[Tue May 14 15:54:47 2013] [error]     return self.nodelist.render(context)
+[Tue May 14 15:54:47 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 830, in render
+[Tue May 14 15:54:47 2013] [error]     bit = self.render_node(node, context)
+[Tue May 14 15:54:47 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+[Tue May 14 15:54:47 2013] [error]     return node.render(context)
+[Tue May 14 15:54:47 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader_tags.py", line 124, in render
+[Tue May 14 15:54:47 2013] [error]     return compiled_parent._render(context)
+[Tue May 14 15:54:47 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
+[Tue May 14 15:54:47 2013] [error]     return self.nodelist.render(context)
+[Tue May 14 15:54:47 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 830, in render
+[Tue May 14 15:54:47 2013] [error]     bit = self.render_node(node, context)
+[Tue May 14 15:54:47 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+[Tue May 14 15:54:47 2013] [error]     return node.render(context)
+[Tue May 14 15:54:47 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 402, in render
+[Tue May 14 15:54:47 2013] [error]     raise NoReverseMatch("'url' requires a non-empty first argument. "
+[Tue May 14 15:54:47 2013] [error] NoReverseMatch: 'url' requires a non-empty first argument. The syntax changed in Django 1.5, see the docs.
+[Tue May 14 15:54:50 2013] [error] Internal Server Error: /
+[Tue May 14 15:54:50 2013] [error] Traceback (most recent call last):
+[Tue May 14 15:54:50 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
+[Tue May 14 15:54:50 2013] [error]     response = callback(request, *callback_args, **callback_kwargs)
+[Tue May 14 15:54:50 2013] [error]   File "/opt/Proys/web/python/finish/finish/apps/main/views.py", line 73, in main_view
+[Tue May 14 15:54:50 2013] [error]     return render_to_response('main/main.html', ctx, context_instance=RequestContext(request))
+[Tue May 14 15:54:50 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+[Tue May 14 15:54:50 2013] [error]     return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+[Tue May 14 15:54:50 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 177, in render_to_string
+[Tue May 14 15:54:50 2013] [error]     return t.render(context_instance)
+[Tue May 14 15:54:50 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 140, in render
+[Tue May 14 15:54:50 2013] [error]     return self._render(context)
+[Tue May 14 15:54:50 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
+[Tue May 14 15:54:50 2013] [error]     return self.nodelist.render(context)
+[Tue May 14 15:54:50 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 830, in render
+[Tue May 14 15:54:50 2013] [error]     bit = self.render_node(node, context)
+[Tue May 14 15:54:50 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+[Tue May 14 15:54:50 2013] [error]     return node.render(context)
+[Tue May 14 15:54:50 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader_tags.py", line 124, in render
+[Tue May 14 15:54:50 2013] [error]     return compiled_parent._render(context)
+[Tue May 14 15:54:50 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
+[Tue May 14 15:54:50 2013] [error]     return self.nodelist.render(context)
+[Tue May 14 15:54:50 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 830, in render
+[Tue May 14 15:54:50 2013] [error]     bit = self.render_node(node, context)
+[Tue May 14 15:54:50 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+[Tue May 14 15:54:50 2013] [error]     return node.render(context)
+[Tue May 14 15:54:50 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 402, in render
+[Tue May 14 15:54:50 2013] [error]     raise NoReverseMatch("'url' requires a non-empty first argument. "
+[Tue May 14 15:54:50 2013] [error] NoReverseMatch: 'url' requires a non-empty first argument. The syntax changed in Django 1.5, see the docs.
+[Tue May 14 15:54:57 2013] [error] Internal Server Error: /post/21/red/
+[Tue May 14 15:54:57 2013] [error] Traceback (most recent call last):
+[Tue May 14 15:54:57 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
+[Tue May 14 15:54:57 2013] [error]     response = callback(request, *callback_args, **callback_kwargs)
+[Tue May 14 15:54:57 2013] [error]   File "/opt/Proys/web/python/finish/finish/apps/main/views.py", line 92, in post_view
+[Tue May 14 15:54:57 2013] [error]     return render_to_response('main/post.html',ctx,context_instance=RequestContext(request))
+[Tue May 14 15:54:57 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/shortcuts/__init__.py", line 29, in render_to_response
+[Tue May 14 15:54:57 2013] [error]     return HttpResponse(loader.render_to_string(*args, **kwargs), **httpresponse_kwargs)
+[Tue May 14 15:54:57 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 177, in render_to_string
+[Tue May 14 15:54:57 2013] [error]     return t.render(context_instance)
+[Tue May 14 15:54:57 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 140, in render
+[Tue May 14 15:54:57 2013] [error]     return self._render(context)
+[Tue May 14 15:54:57 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
+[Tue May 14 15:54:57 2013] [error]     return self.nodelist.render(context)
+[Tue May 14 15:54:57 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 830, in render
+[Tue May 14 15:54:57 2013] [error]     bit = self.render_node(node, context)
+[Tue May 14 15:54:57 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+[Tue May 14 15:54:57 2013] [error]     return node.render(context)
+[Tue May 14 15:54:57 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/loader_tags.py", line 124, in render
+[Tue May 14 15:54:57 2013] [error]     return compiled_parent._render(context)
+[Tue May 14 15:54:57 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
+[Tue May 14 15:54:57 2013] [error]     return self.nodelist.render(context)
+[Tue May 14 15:54:57 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 830, in render
+[Tue May 14 15:54:57 2013] [error]     bit = self.render_node(node, context)
+[Tue May 14 15:54:57 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+[Tue May 14 15:54:57 2013] [error]     return node.render(context)
+[Tue May 14 15:54:57 2013] [error]   File "/usr/local/lib/python2.7/dist-packages/django/template/defaulttags.py", line 402, in render
+[Tue May 14 15:54:57 2013] [error]     raise NoReverseMatch("'url' requires a non-empty first argument. "
+[Tue May 14 15:54:57 2013] [error] NoReverseMatch: 'url' requires a non-empty first argument. The syntax changed in Django 1.5, see the docs.
+[Tue May 14 16:19:26 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 16:19:26 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 16:24:27 2013] [error] [client 127.0.0.1] mod_wsgi (pid=2074): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Tue May 14 16:24:27 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Tue May 14 19:12:50 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/redirect.php?subject=server&server=localhost%3A5432%3Aallow
+[Tue May 14 19:12:50 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be passed by reference in /usr/share/phppgadmin/redirect.php on line 14, referer: http://localhost/phppgadmin/redirect.php?subject=server&server=localhost%3A5432%3Aallow
+[Tue May 14 19:12:51 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/browser.php
+[Tue May 14 19:12:51 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/browser.php
+[Tue May 14 19:12:54 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/browser.php
+[Tue May 14 19:12:54 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be passed by reference in /usr/share/phppgadmin/redirect.php on line 14, referer: http://localhost/phppgadmin/browser.php
+[Tue May 14 19:13:00 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/redirect.php?subject=database&server=localhost%3A5432%3Aallow&database=postgres
+[Tue May 14 19:13:00 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be passed by reference in /usr/share/phppgadmin/redirect.php on line 14, referer: http://localhost/phppgadmin/redirect.php?subject=database&server=localhost%3A5432%3Aallow&database=postgres
+[Tue May 14 19:13:02 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/redirect.php?server=localhost%3A5432%3Aallow&subject=server
+[Tue May 14 19:13:04 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/all_db.php?subject=server&server=localhost%3A5432%3Aallow
+[Tue May 14 19:13:16 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/all_db.php?subject=server&server=localhost%3A5432%3Aallow
+[Tue May 14 19:13:24 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/servers.php
+[Tue May 14 19:13:25 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be passed by reference in /usr/share/phppgadmin/redirect.php on line 14, referer: http://localhost/phppgadmin/servers.php
+[Tue May 14 19:13:25 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/browser.php
+[Tue May 14 19:13:25 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be passed by reference in /usr/share/phppgadmin/redirect.php on line 14, referer: http://localhost/phppgadmin/browser.php
+[Tue May 14 19:13:30 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/redirect.php?subject=database&server=localhost%3A5432%3Aallow&database=postgres
+[Tue May 14 19:13:30 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be passed by reference in /usr/share/phppgadmin/redirect.php on line 14, referer: http://localhost/phppgadmin/redirect.php?subject=database&server=localhost%3A5432%3Aallow&database=postgres
+[Tue May 14 19:13:35 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/redirect.php?server=localhost%3A5432%3Aallow&subject=database&database=postgres
+[Tue May 14 19:13:38 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/database.php?subject=database&action=admin&server=localhost%3A5432%3Aallow&database=postgres
+[Tue May 14 19:13:43 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/schemas.php?subject=database&server=localhost%3A5432%3Aallow&database=postgres
+[Tue May 14 19:13:45 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/database.php?subject=database&action=sql&new=1&server=localhost%3A5432%3Aallow&database=postgres
+[Tue May 14 19:13:46 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/browser.php
+[Tue May 14 19:13:48 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/browser.php
+[Tue May 14 19:13:48 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/browser.php
+[Tue May 14 19:13:53 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/browser.php
+[Tue May 14 19:13:55 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/browser.php
+[Tue May 14 19:13:56 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/browser.php
+[Tue May 14 19:14:02 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/browser.php
+[Tue May 14 19:14:02 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be passed by reference in /usr/share/phppgadmin/redirect.php on line 14, referer: http://localhost/phppgadmin/browser.php
+[Tue May 14 19:14:02 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/browser.php
+[Tue May 14 19:14:02 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be passed by reference in /usr/share/phppgadmin/redirect.php on line 14, referer: http://localhost/phppgadmin/browser.php
+[Tue May 14 19:45:29 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Tue May 14 19:45:29 2013] [error]   DeprecationWarning)
+[Tue May 14 19:45:29 2013] [error] 
+[Fri May 17 22:57:41 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Fri May 17 22:57:41 2013] [error]   DeprecationWarning)
+[Fri May 17 22:57:41 2013] [error] 
+[Sat May 18 19:53:22 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Sat May 18 19:53:22 2013] [error]   DeprecationWarning)
+[Sat May 18 19:53:22 2013] [error] 
+[Sat May 18 19:53:30 2013] [error] [client 127.0.0.1] mod_wsgi (pid=5797): Exception occurred processing WSGI script '/opt/Proys/web/python/finish/finish/wsgi.py'.
+[Sat May 18 19:53:30 2013] [error] [client 127.0.0.1] IOError: failed to write data
+[Sat May 18 20:01:54 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Sat May 18 20:01:54 2013] [error]   DeprecationWarning)
+[Sat May 18 20:01:54 2013] [error] 
+[Tue May 21 10:26:52 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Tue May 21 10:26:52 2013] [error]   DeprecationWarning)
+[Tue May 21 10:26:52 2013] [error] 
+[Thu May 23 10:40:06 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/redirect.php?subject=server&server=localhost%3A5432%3Aallow
+[Thu May 23 10:40:06 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be passed by reference in /usr/share/phppgadmin/redirect.php on line 14, referer: http://localhost/phppgadmin/redirect.php?subject=server&server=localhost%3A5432%3Aallow
+[Thu May 23 10:40:07 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/browser.php
+[Thu May 23 10:40:07 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/browser.php
+[Thu May 23 10:40:12 2013] [error] [client 127.0.0.1] PHP Strict Standards:  Only variables should be assigned by reference in /usr/share/phppgadmin/classes/database/Connection.php on line 23, referer: http://localhost/phppgadmin/redirect.php
+[Thu May 23 14:36:33 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Thu May 23 14:36:33 2013] [error]   DeprecationWarning)
+[Thu May 23 14:36:33 2013] [error] 
+[Thu May 23 15:32:23 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Thu May 23 15:32:23 2013] [error]   DeprecationWarning)
+[Thu May 23 15:32:23 2013] [error] 
+[Thu May 23 17:11:14 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Thu May 23 17:11:14 2013] [error]   DeprecationWarning)
+[Thu May 23 17:11:14 2013] [error] 
+[Wed Jun 12 13:07:58 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Wed Jun 12 13:07:58 2013] [error]   DeprecationWarning)
+[Wed Jun 12 13:07:58 2013] [error] 
+[Wed Jun 12 20:51:09 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Wed Jun 12 20:51:09 2013] [error]   DeprecationWarning)
+[Wed Jun 12 20:51:09 2013] [error] 
+[Thu Jun 13 03:06:11 2013] [error] [client 127.0.0.1] PHP Warning:  POST Content-Length of 433613103 bytes exceeds the limit of 8388608 bytes in Unknown on line 0, referer: http://localhost/phpmyadmin/server_import.php?token=8a3e9e10b7fea96abf8540d9ccd3aafb
+[Thu Jun 13 07:29:00 2013] [error] /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+[Thu Jun 13 07:29:00 2013] [error]   DeprecationWarning)
+[Thu Jun 13 07:29:00 2013] [error] 
+[Thu Jun 13 08:29:51 2013] [error] [client 127.0.0.1] PHP Warning:  POST Content-Length of 433613203 bytes exceeds the limit of 8388608 bytes in Unknown on line 0, referer: http://localhost/phpmyadmin/db_import.php?db=incollect&server=1&token=5b1a596e055f34e0f4c6a657de563a63

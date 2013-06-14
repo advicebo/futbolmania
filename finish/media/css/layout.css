@@ -1,0 +1,166 @@
+/*-------------------------------------------------------------------- 
+							CONFIGURATION
+----------------------------------------------------------------------*/
+*{
+	margin: 0;
+	padding: 0;	
+}
+
+a{
+	text-decoration: none !important;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: auto;padding: 0;
+	width: 100%;
+	font-family: 'Open Sans';
+	background-image: url(../images/patterns/txt.jpg);
+}
+.left{ float: left; } .right{ float: right; }
+
+
+/* .............................. CABECERA .............................. */
+body header{
+	/*background-image: url(../images/patterns/footer.jpg); */
+	background-color: #000;
+	height: 180px;
+	margin-bottom: 5px;
+	width: 100%;
+}
+/* ********* LOGO ********* */
+header #logo{
+	float: left;
+	height: 100%;
+	width: 25%;
+}
+/* ********* BARRA DE NAVEGACION ********* */
+header nav{
+	float: left;
+	height: 30%;
+	padding-top: 8px;
+	position: relative;
+	width: 75%;
+}
+
+/* ********* ANNUNCIANTES CABECERA ********* */
+header #advertiser{
+	float: left;
+	height: 65%;	
+	width: 70%;
+}
+
+header #zocial{
+	/*background: black;*/
+	position: absolute;
+	width: 70px;
+	height: 180px;
+	right: 90px;
+}
+header #zocial img{
+	height: 80px;
+	width: 80px;
+	margin-bottom: -30px;
+	margin-top:10px;
+	opacity: 0.4;
+	cursor: pointer;
+}
+header #zocial img:hover{
+	opacity: 1;
+}
+/* .............................. CONTENIDO PRINCIPAL .............................. */
+
+/* ******** CONTENIDO PRINCIPAL ******** */
+body #content{
+	height: 2315px; /* Alto del contenido */
+	margin-bottom: 20px;
+	width: 100%;	
+}
+	/* ++++++++ ADS IZQ Y DER ++++++++ */
+	#content .ads{
+		float: left;
+		height: 100%;
+		width: 10%;
+	}
+	#content #main{
+		height: 100%;
+		width: 80%;
+		float: left;
+	}
+	/* ========= NOTICIA CENTRAL =========*/
+		#main #central{
+			height: 475px; /* Alto de la noticia central */
+			margin-left: 0.5%;
+			width: 99%;
+		}
+		#main #news{
+			height: 1785px; /* Alto del todas las noticias */
+			margin-top: 20px;
+			width: 100%;
+		}
+			/* @@@@@@ NOTICIA CENTRAL  @@@@@@ */
+			#news #posts, #news #publications{
+				height: 100%;
+				float: left;
+				width: 50%;
+			}
+			#news #posts{
+				/*background: white;*/
+			}
+			#news #publications{
+			}
+/* .......................... CONTENIDO MULTIMEDIA Y NOTICIAS CORTAS ........................ */
+
+/* ******** GALERIAS DE FOTOS, VIDEOS Y NOTICIAS CORTAS ******** */
+body #multimedia{
+	height: auto;
+	width: 100%;
+}
+	/* ++++++++ GALERIAS MULTIMEDIA ++++++++ */
+	#multimedia .media{
+		height: 294px;
+		position: relative;
+		width: 100%;
+	}
+	/* ++++++++ NOTICIAS CORTAS ++++++++ */
+	#multimedia #shorts{
+		background: white;
+		height: 200px;
+		width: 100%;
+	}
+
+/* ....................................... PIE DE PAGINA  ................................... */
+
+footer{
+	background-image: url(../images/patterns/footer.jpg);
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+	height: 115px;
+}
+/* ******** GALERIAS DE FOTOS, VIDEOS Y NOTICIAS CORTAS ******** */
+footer #sponsors{
+	background: black;
+	height: 70px;
+	width: 100%;
+}
+
+footer ul{
+	display: block;
+	height: 40px;
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer ul li{
+	border-radius: 10px;
+	background: transparent;
+	color: white;
+	display: block;
+	float: left;
+	padding: 12px 12px;
+}
