@@ -5,7 +5,7 @@
 
 	{% block content %}
 		<div id="central">
-			<!-- ********* 3 ULTIMAS NOTICIAS DESGLOZADAS ********* -->
+			<!-- ********* 3 ULTIMAS NOTICIAS DESGLOZADAS
 			{% if posts %}
 			<div id="priority-news">
 				{% for p in posts %}
@@ -41,6 +41,7 @@
 					{% endifequal %}					
 				{% endfor %}
 			</div>
+			****************************** -->
 			<!-- ********* NOTICIA CENTRAL, CON IMAGEN Y DESCRICION ********* -->
 			<div id="main-new">
 				{% for p in posts %}
@@ -64,8 +65,8 @@
 			<!-- ********* LO MAS LEIDO Y LO MAS RECIENTE ********* -->
 			<div id="lasts-recents">
 				<div id="nav">
-					<a href="#" id="lec" class="current">Mas Leido</a>
-					<a href="#" id="rec">Mas Reciente</a>
+					<a href="#" id="lec" class="current">Lo M&aacute;s Reciente</a>
+					<!--<a href="#" id="rec">Mas Leido</a>-->
 				</div>
 				<!-- ++++++ LO MAS LEIDO ++++++ -->
 				<div id="lasts">
@@ -438,6 +439,7 @@
 						</figure>
 					</div>
 				</article>
+				<!-- ********** la parte de las portadas
 				<article class="main-title">
 					<span class="izq">Portadas</span>
 					<span class="der"></span>
@@ -460,6 +462,7 @@
 						<img src="/media/uploads/portadas/p4.jpg" />
 					</div>
 				</article>
+				-->
 				<article class="main-title">
 					<span class="izq">Tablas de posiciones</span>
 					<span class="der"></span>
@@ -508,7 +511,7 @@
 							</figure>								
 							<span class="vs">vs</span>
 							<span class="fecha bg-red">13 de Abril de 2013</span>
-							<span class="hora bg-skyblue">16:30 - La Paz</span>
+							<span class="hora bg-skyblue">16:30</span>
 						</article>								
 						
 					</div>
@@ -534,7 +537,7 @@
 					</div>
 				</article>
 				<article class="xm-large bd-green">
-					
+
 				</article>
 			</div>
 		</div>
@@ -568,10 +571,10 @@
 			<a href="" class="next"></a>
 		</article>
 		
-		<article id="shorts">
-
+		<!--<article id="shorts">
+			<h3>Aca Van las noticias Cortas</h3>
 		</article>
-
+		-->
 		<article class="main-title mtlarge">
 			<span class="izq">Diosas</span>
 			<span class="der"></span>
