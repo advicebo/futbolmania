@@ -16,8 +16,8 @@ framework.
 import os
 import sys
 
-sys.path.append('/opt/Proys/web/python/finish')
-sys.path.append('/opt/Proys/web/python/finish/finish')
+sys.path.append('/opt/Proys/web/python/futbolmania')
+sys.path.append('/opt/Proys/web/python/futbolmania/finish')
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "finish.settings")
 

@@ -1,0 +1,4 @@
+*.pyc
+.idea/
+finish/settings.py
+finish/media/uploads/
