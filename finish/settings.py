@@ -169,6 +169,6 @@ LOGGING = {
 #Aqui va la configuracion del servidor de correo
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'jvacx.log@gmail.com'
+EMAIL_HOST_USER = 'hrengelc@gmail.com'
 EMAIL_HOST_PASSWORD = ''
 EMAIL_USER_TSL = True
