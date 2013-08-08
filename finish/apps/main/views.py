@@ -576,6 +576,11 @@ def post_view(request, id_post,color):
 	anuncios_izq = paginator_izq.page(1)
 	anuncios_der = paginator_der.page(1)
 	
-	ctx = { 'post': singlePost, 'color' : color, 'izq' : anuncios_izq, 'der' : anuncios_der}
+	ctx = { 
+			'post': singlePost, 
+			'color' : color, 
+			'izq' : anuncios_izq, 
+			'der' : anuncios_der
+			}
 
 	return render_to_response('main/post.html',ctx,context_instance=RequestContext(request))

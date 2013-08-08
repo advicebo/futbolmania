@@ -285,7 +285,7 @@ header #advertiser article img{
 		}
 		#priority-news article{
 			cursor: pointer;
-			height: 33%;
+			height: 31%;
 			margin-bottom: 2px;
 			position: relative;
 			width: 100%;
@@ -320,24 +320,35 @@ header #advertiser article img{
 		}
 		#priority-news article p{
 			font-size: 12px;
-			height: 85px;
+			height: 70px;
 			line-height: 13px;
 			overflow: hidden;
 			padding: 5px 6px;
 			right: 0;
 			top: 26px;
-			width: 145px;
+			width: 125px;
 		}
 		#priority-news article .title{
 			background: rgba(255,255,255,0.6);
 			border-bottom: 1px solid #c2c2c2;
 			color: #3e3e3e;
 			line-height: 15px;
-			height: auto;
+			height: 24px;
+			overflow: hidden;
 			font-size: 14px;
 			font-family: 'Oswald';
 			text-align: center;
 			padding: 6px 10px;
+		}
+		#priority-news #nav a.current{
+			background: #e10e26;
+			color: white;
+			height: 100%;
+			display: block;
+			padding: 7px 0;
+			text-align: center;
+			width: 101%;
+			font-weight: 800;	
 		}
 		
 
@@ -358,7 +369,7 @@ header #advertiser article img{
 			#main-new figure img{
 				border-top: 5px solid #2e2e2e;
 				border-bottom: 5px solid #2e2e2e;
-				border-left: 5px solid #2e2e2e;
+				border-right: 5px solid #2e2e2e;
 				height: 100%;
 				width: 100%;
 			}

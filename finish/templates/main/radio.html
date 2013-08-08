@@ -1,13 +1,16 @@
 {% extends 'base.html' %}
-{% block title %} RADIO EN INTERNET - Futbolmanía {% endblock %}
+{% block title %} Radio en Internet - Futbolmanía {% endblock %}
 
 {% block style %}{% endblock %}
 
 	{% block content %}
-		<div id="central">
-			<!-- ********* 3 ULTIMAS NOTICIAS DESGLOZADAS
+		<div id="central">		
 			{% if posts %}
 			<div id="priority-news">
+				<div id="nav">
+					<a href="#" id="lec" class="current">Lo M&aacute;s Reciente</a>
+					<!--<a href="#" id="rec">Mas Leido</a>-->
+				</div>
 				{% for p in posts %}
 					{% ifequal forloop.counter 2 %}
 					<a href="/post/{{ p.id }}/darken">
@@ -41,7 +44,7 @@
 					{% endifequal %}					
 				{% endfor %}
 			</div>
-			****************************** -->
+			
 			<!-- ********* NOTICIA CENTRAL, CON IMAGEN Y DESCRICION ********* -->
 			<div id="main-new">
 				{% for p in posts %}
@@ -63,44 +66,7 @@
 				<h4>No existen publicaciones</h4>
 			{% endif %}
 			<!-- ********* LO MAS LEIDO Y LO MAS RECIENTE ********* -->
-			<div id="lasts-recents">
-				<div id="nav">
-					<a href="#" id="lec" class="current">Lo M&aacute;s Reciente</a>
-					<!--<a href="#" id="rec">Mas Leido</a>-->
-				</div>
-				<!-- ++++++ LO MAS LEIDO ++++++ -->
-				<div id="lasts">
-					<article>
-						<img src="/media/images/s2.jpg" />
-						<span class="title">Selección</span>
-						<span class="date">13 de Abril de 2013</span>
-					</article>
-					<article>
-						<img src="" />
-						<span class="title">Selección</span>
-						<span class="date">13 de Abril de 2013</span>
-					</article>
-					<article>
-						<img src="" />
-						<span class="title">Selección</span>
-						<span class="date">13 de Abril de 2013</span>
-					</article>
-					<article>
-						<img src="" />
-						<span class="title">Selección</span>
-						<span class="date">13 de Abril de 2013</span>
-					</article>
-					<article>
-						<img src="" />
-						<span class="title">Selección</span>
-						<span class="date">13 de Abril de 2013</span>
-					</article>
-				</div>
-				<!-- ++++++ LO MAS RECIENTE ++++++ -->
-				<div id="recents">
-					<!-- Aqui van mas articulos -->
-				</div>
-			</div>
+			
 			<!-- ********* EQUIPOS ********* -->
 			<div id="teams">
 				<span>Equipos</span>
@@ -127,7 +93,7 @@
 			<section>
 				<article>
 					<div id="tit-art">Radio Fides en Internet</div>
-					<iframe src="http://www.radiofides.com/radio/radiofideslapaz" width="100%" height="300" align="center">
+					<object type="text/html" data="http://www.radiofides.com/radio/radiofideslapaz" width="100%" height="450"></object>
 				</article>
 			</section>			
 		</div>
