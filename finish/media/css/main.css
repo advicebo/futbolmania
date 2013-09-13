@@ -1373,3 +1373,6 @@ form article
 		display: block;
 		font-size: 4em;
 	}	
+.parrafo{
+	display: none !important;
+}	
