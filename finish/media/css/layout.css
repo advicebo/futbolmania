@@ -21,8 +21,8 @@ html, body{
 	background-image: url(../images/patterns/txt.jpg);
 }
 .left{ float: left; } .right{ float: right; }
-p{
-	display: none;
+.parrafo{
+	display: none !important;
 }
 
 /* .............................. CABECERA .............................. */
